@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>chidi single</title>
+    <link rel="stylesheet" href="./dist/css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron"> 
+            <div id="imageSlide" class="ml-5 mr-5">
+                <img name="slide" />
+            </div>
+
+            <div id="" class="mb-3 mt-3 ml-5 mr-5">
+                <div id="article">
+
+                </div>
+                <!-- <p>title</p>
+                <p><span>Author: author</span><span>time:time</span></p>
+                <p>body</p> -->
+                <h2 class="text-center mt-3 mb-3">Comments</h2>
+                <div class="comments row ml-3 mr-3" id="articlecomments">
+                    
+                    
+                </div>
+
+                
+                <form id="addComment" >
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="author">
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="name">Comment</label>
+                        <textarea class="form-control" name="comment" id="comment" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-primary" value="submit"  id="commentbtn"/>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        
+
+        
+    </div>
+    <script src="./js/helpersingle.js" type="module"></script>
+    
+
+</body>
+</html>
